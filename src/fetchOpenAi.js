@@ -4,7 +4,7 @@ export async function fetchGeneratedImages() {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        authorization: `Bearer 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`,
+        authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
       },
       body: JSON.stringify({"prompt": "A cute baby sea otter","n": 1,"size": "256x256"}),
     });
