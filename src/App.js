@@ -31,62 +31,59 @@ function App() {
       <div className="flex gap-8">
         <form className="flex-1 space-y-6">
           <div>
-            <legend className="text-left text-lg font-bold mb-2">Number of people:</legend>
-            <div className="flex flex-row flex-wrap gap-4">
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input id="number-of-people-radio-1" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-people-radio-1" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 1</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="number-of-people-radio-2" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-people-radio-2" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 2</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="number-of-people-radio-3" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-people-radio-3" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 3</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="number-of-people-radio-4" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-peopleradio-4" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 4</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="number-of-people-radio-5" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-people-radio-5" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 5</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="number-of-people-radio-6" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-people-radio-6" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 6</label>
-              </div>
-            </div>
+            <legend className="text-left text-lg font-bold mb-2">Gender:</legend>
+            <select id="small" class="block w-full px-4 py-3 text-base mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option selected>Select gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Non binary">Neutral</option>
+              <option value="DE">They</option>
+            </select>
           </div>
           <div>
             <legend className="text-left text-lg font-bold mb-2">Number of people:</legend>
-            <div className="flex flex-row flex-wrap gap-4">
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-1" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 1</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="bordered-radio-2" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-2" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 2</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="bordered-radio-3" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-3" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 3</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="bordered-radio-4" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-4" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 4</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="bordered-radio-5" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-5" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 5</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="bordered-radio-6" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-6" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 6</label>
-              </div>
-            </div>
+            <select id="small" class="block w-full px-4 py-3 text-base mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="Several">Several</option>
+            </select>
+          </div>
+          <div>
+            <legend className="text-left text-lg font-bold mb-2">Age:</legend>
+            <select id="small" class="block w-full px-4 py-3 text-base mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option selected value="18 year old">18</option>
+              <option value="20 year old">20s</option>
+              <option value="30 year old">30s</option>
+              <option value="30 year old">30s</option>
+              <option value="40 year old">40s</option>
+              <option value="50 year old">50s</option>
+              <option value="60 year old">60s</option>
+            </select>
+          </div>
+          <div>
+            <legend className="text-left text-lg font-bold mb-2">Landing type:</legend>
+            <select id="small" class="block w-full px-4 py-3 text-base mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option selected>Select landing type</option>
+              <option value="First home">First home</option>
+              <option value="Second home">Second home</option>
+              <option value="Refinance">Refinance</option>
+              <option value="Investment">Investment</option>
+              <option value="Car loan">Car loan</option>
+              <option value="Business loan">Business loan</option>
+              <option value="Vacant land">Vacant land</option>
+            </select>
+          </div>
+          <div>
+            <legend className="text-left text-lg font-bold mb-2">Setting:</legend>
+            <select id="small" class="block w-full px-4 py-3 text-base mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option selected>Select setting</option>
+              <option value="Tiny house">Tiny house</option>
+              <option value="Apartment">Apartment</option>
+              <option value="New house">New house</option>
+              <option value="Established house">Established house</option>
+              <option value="Mansion">Mansion</option>
+              <option value="Vacant land">Vacant land</option>
+            </select>
           </div>
           <Ethnicity />
           <Relationship />
