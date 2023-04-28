@@ -32,58 +32,27 @@ function App() {
             <div className="flex flex-row flex-wrap gap-4">
               <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
                 <input id="number-of-people-radio-1" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-people-radio-1" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 1</label>
+                <label htmlFor="number-of-people-radio-1" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">1</label>
               </div>
               <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
                 <input checked id="number-of-people-radio-2" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-people-radio-2" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 2</label>
+                <label htmlFor="number-of-people-radio-2" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">2</label>
               </div>
               <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
                 <input checked id="number-of-people-radio-3" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-people-radio-3" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 3</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="number-of-people-radio-4" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-peopleradio-4" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 4</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="number-of-people-radio-5" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-people-radio-5" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 5</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="number-of-people-radio-6" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="number-of-people-radio-6" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 6</label>
+                <label htmlFor="number-of-people-radio-3" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Several</label>
               </div>
             </div>
           </div>
           <div>
-            <legend className="text-left text-lg font-bold mb-2">Number of people:</legend>
-            <div className="flex flex-row flex-wrap gap-4">
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-1" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 1</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="bordered-radio-2" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-2" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 2</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="bordered-radio-3" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-3" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 3</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="bordered-radio-4" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-4" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 4</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="bordered-radio-5" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-5" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 5</label>
-              </div>
-              <div className="flex-auto basis-1/4 flex items-center pl-4 border border-gray-200 rounded dark:border-gray-700">
-                <input checked id="bordered-radio-6" type="radio" value="" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label htmlFor="bordered-radio-6" className="w-full py-4 ml-2 text-sm font-medium text-gray-900">Option 6</label>
-              </div>
-            </div>
+            <legend className="text-left text-lg font-bold mb-2">Gender:</legend>
+            <select id="small" class="block w-full px-4 py-3 text-base mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option selected>Select gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Non binary">Neutral</option>
+              <option value="DE">They</option>
+            </select>
           </div>
         </form>
         <div className="flex-1">
