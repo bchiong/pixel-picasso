@@ -35,7 +35,7 @@ function App() {
   return (
     <div>
       <h1 className="mt-4 mb-4 pb-12 text-3xl font-bold text-center border-solid border-1 border-grey-500">
-      Pixel Picasso
+      Pied Painter
       </h1>
       <div className="App">
       <div className="flex gap-8">
