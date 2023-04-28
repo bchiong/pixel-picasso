@@ -1,7 +1,7 @@
 export const Ethnicity = () => {
   return (<div>
     <legend className="text-left text-lg font-bold mb-2">Ethnicity:</legend>
-    <select id="ethnicity" name="ethnicity" class="pl-4 relative w-full cursor-default rounded-md bg-white py-4 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm sm:leading-6">
+    <select id="ethnicity" name="ethnicity" className="pl-4 relative w-full cursor-default rounded-md bg-white py-4 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm sm:leading-6">
       <option value="African">African</option>
       <option value="Arabic">Arabic</option>
       <option value="Asian">Asian</option>
