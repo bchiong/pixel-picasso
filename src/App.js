@@ -73,7 +73,7 @@ function App() {
           <div>
             <legend className="text-left text-lg font-bold mb-2">Lending type:</legend>
             <select id="small" name="lendingType" className="block w-full px-4 py-3 text-base mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
-              <option value="">Select landing type</option>
+              <option value="" selected disabled hidden>Select lending type</option>
               <option value="First home">First home</option>
               <option value="Second home">Second home</option>
               <option value="Refinance">Refinance</option>
@@ -86,7 +86,7 @@ function App() {
           <div>
             <legend className="text-left text-lg font-bold mb-2">Setting:</legend>
             <select id="small" name="setting" className="block w-full px-4 py-3 text-base mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
-              <option value="">Select setting</option>
+              <option value="" selected disabled hidden>Select setting</option>
               <option value="Tiny house">Tiny house</option>
               <option value="Apartment">Apartment</option>
               <option value="New house">New house</option>
