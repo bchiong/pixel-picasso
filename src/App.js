@@ -1,6 +1,9 @@
 import './App.css';
 import { fetchGeneratedImages } from './fetchOpenAi';
 import { useEffect, useState } from 'react';
+import {Ethnicity} from './ethnicity';
+import {Relationship} from './relationship';
+import {Location} from './location'
 
 function App() {
   const [images, setImages] = useState(null);
@@ -85,6 +88,9 @@ function App() {
               </div>
             </div>
           </div>
+          <Ethnicity />
+          <Relationship />
+          <Location />
         </form>
         <div className="flex-1">
           <div className='h-full rounded-lg flex items-center justify-center bg-gray-200 mb-4'>Result Box</div>
