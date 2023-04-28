@@ -57,6 +57,31 @@ function App() {
               <option value="60 year old">60s</option>
             </select>
           </div>
+          <div>
+            <legend className="text-left text-lg font-bold mb-2">Landing type:</legend>
+            <select id="small" class="block w-full px-4 py-3 text-base mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option selected>Select landing type</option>
+              <option value="First home">First home</option>
+              <option value="Second home">Second home</option>
+              <option value="Refinance">Refinance</option>
+              <option value="Investment">Investment</option>
+              <option value="Car loan">Car loan</option>
+              <option value="Business loan">Business loan</option>
+              <option value="Vacant land">Vacant land</option>
+            </select>
+          </div>
+          <div>
+            <legend className="text-left text-lg font-bold mb-2">Setting:</legend>
+            <select id="small" class="block w-full px-4 py-3 text-base mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option selected>Select setting</option>
+              <option value="Tiny house">Tiny house</option>
+              <option value="Apartment">Apartment</option>
+              <option value="New house">New house</option>
+              <option value="Established house">Established house</option>
+              <option value="Mansion">Mansion</option>
+              <option value="Vacant land">Vacant land</option>
+            </select>
+          </div>
         </form>
         <div className="flex-1">
           <div className='h-full rounded-lg flex items-center justify-center bg-gray-200 mb-4'>Result Box</div>
