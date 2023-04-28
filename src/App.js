@@ -23,8 +23,7 @@ function App() {
     const formElem = document.getElementById("ai-form");
     const formData = new FormData(formElem);
     const payload = Object.fromEntries(formData.entries())
-    const sentence = `A photorealistic image with a ${payload.number} ${payload.ethnicity} people who is ${payload.age}, ${payload.gender}, ${payload.lendingType}, ${payload.relationship}, ${payload.location}, inside a ${payload.setting} `
-    console.log(sentence);
+    const sentence = `A photorealistic image with a happy ${payload.number} ${payload.ethnicity} people who is ${payload.age}, ${payload.gender}, ${payload.lendingType}, ${payload.relationship}, ${payload.location}, inside a ${payload.setting} `
     fetchGeneratedImages(sentence)
     .then(data => {
       const retVal = data.map((image) => {
